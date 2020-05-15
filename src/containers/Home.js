@@ -60,7 +60,8 @@ export default function Home() {
         return (
             <div className="lander">
                 <h1>Scratch</h1>
-                <p>A simple note taking app</p>
+                <p>A simple note taking app.  This app is mostly an excuse to play around w/ AWS Service and React.  The signup does work though (uses Cognito) and the backend uses DynamoDB, API Gateway and S3 buckets.</p>
+                <p>It'll send you a confirmation and you can use the app (such as it is).</p>
                 <div>
                     <Link to="/login" className="btn btn-info btn-lg">
                         Login
